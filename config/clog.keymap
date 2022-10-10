@@ -47,26 +47,26 @@
 
         escape {
             timeout-ms = <50>;
-            key-positions = <8 10>;
+            key-positions = <8 12>;
             bindings = <&kp ESC>;
         };
 
 
         enter {
             timeout-ms = <50>;
-            key-positions = <17 19>;
+            key-positions = <15 19>;
             bindings = <&kp ENTER>;
         };
 
         tab {
             timeout-ms = <50>;
-            key-positions = <11 2>;
+            key-positions = <12 31>;
             bindings = <&kp TAB>;
         };
 
         untab {
             timeout-ms = <50>;
-            key-positions = <5 16>;
+            key-positions = <15 32>;
             bindings = <&kp LS(TAB)>;
         };
 
